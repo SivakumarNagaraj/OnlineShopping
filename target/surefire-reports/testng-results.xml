@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[1]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="10222" started-at="2022-09-20T14:44:14 IST" finished-at="2022-09-20T14:44:24 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="10222" started-at="2022-09-20T14:44:14 IST" finished-at="2022-09-20T14:44:24 IST">
+      <class name="TestNG.TestExecution1Test">
+        <test-method status="PASS" signature="beforeClassSetUp()[pri:0, instance:TestNG.TestExecution1Test@3712b94]" name="beforeClassSetUp" is-config="true" duration-ms="6165" started-at="2022-09-20T14:44:14 IST" finished-at="2022-09-20T14:44:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassSetUp -->
+        <test-method status="PASS" signature="beforeMethodSetUp()[pri:0, instance:TestNG.TestExecution1Test@3712b94]" name="beforeMethodSetUp" is-config="true" duration-ms="800" started-at="2022-09-20T14:44:20 IST" finished-at="2022-09-20T14:44:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodSetUp -->
+        <test-method status="PASS" signature="testexecution1Test()[pri:0, instance:TestNG.TestExecution1Test@3712b94]" name="testexecution1Test" duration-ms="3" started-at="2022-09-20T14:44:21 IST" finished-at="2022-09-20T14:44:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testexecution1Test -->
+        <test-method status="PASS" signature="afterMethodSetUp()[pri:0, instance:TestNG.TestExecution1Test@3712b94]" name="afterMethodSetUp" is-config="true" duration-ms="466" started-at="2022-09-20T14:44:21 IST" finished-at="2022-09-20T14:44:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodSetUp -->
+        <test-method status="PASS" signature="afterClassSetUp()[pri:0, instance:TestNG.TestExecution1Test@3712b94]" name="afterClassSetUp" is-config="true" duration-ms="2746" started-at="2022-09-20T14:44:22 IST" finished-at="2022-09-20T14:44:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassSetUp -->
+      </class> <!-- TestNG.TestExecution1Test -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="TestNG.TestExecution1Test">
+        <methods>
+          <include name="testexecution1Test"/>
+        </methods>
+      </class> <!-- TestNG.TestExecution1Test -->
+      <class name="TestNG.TestExecution3Test">
+        <methods>
+          <include name="testexecution3test"/>
+        </methods>
+      </class> <!-- TestNG.TestExecution3Test -->
+      <class name="TestNG.TC2_Test">
+        <methods>
+          <include name="beforeClassSetUp"/>
+          <include name="afterMethodSetUp"/>
+          <include name="afterClassSetUp"/>
+          <include name="tc2_Test"/>
+          <include name="beforeMethodSetUp"/>
+        </methods>
+      </class> <!-- TestNG.TC2_Test -->
+      <class name="TestNG.TC3_Test">
+        <methods>
+          <include name="beforeClassSetUp"/>
+          <include name="afterMethodSetUp"/>
+          <include name="tc3_Test"/>
+          <include name="afterClassSetUp"/>
+          <include name="beforeMethodSetUp"/>
+        </methods>
+      </class> <!-- TestNG.TC3_Test -->
+      <class name="TestNG.TC1_Test">
+        <methods>
+          <include name="beforeClassSetUp"/>
+          <include name="afterMethodSetUp"/>
+          <include name="afterClassSetUp"/>
+          <include name="beforeMethodSetUp"/>
+        </methods>
+      </class> <!-- TestNG.TC1_Test -->
+      <class name="TestNG.TC4_Test">
+        <methods>
+          <include name="tc4_Test"/>
+        </methods>
+      </class> <!-- TestNG.TC4_Test -->
+      <class name="TestNG.TestExecution2Test">
+        <methods>
+          <include name="testexecution1test"/>
+        </methods>
+      </class> <!-- TestNG.TestExecution2Test -->
+      <class name="TestNG.TestExecution4Test">
+        <methods>
+          <include name="testexecution4test"/>
+        </methods>
+      </class> <!-- TestNG.TestExecution4Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
