@@ -13,10 +13,12 @@ public class ListenerImplementation implements ITestListener {
 
 	ExtentReports extentReports;
 	ExtentTest test;
+public static ExtentTest stest;
                                                              
 	@Override//BM
 	public void onTestStart(ITestResult result) {
 		test = extentReports.createTest(result.getMethod().getMethodName());
+		stest = test;
 	}
 
 	@Override//AM
@@ -26,18 +28,22 @@ public class ListenerImplementation implements ITestListener {
 
 	@Override//AM
 	public void onTestFailure(ITestResult result) {
+		test.fail(result.getMethod().getMethodName()+" fail");
+		test.fail(result.getThrowable());
 
 		try {
 			new ScreenShortUtility().ScreenShort(BaseClass.sdriver, BaseClass.sjavautility, result.getMethod().getMethodName());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		String path = new ScreenShortUtility().ScreenShort(BaseClass.sdriver);
+		test.addScreenCaptureFromBase64String(path);
 	}
 
 	@Override//AM
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
-		
+		test.skip(result.getMethod().getMethodName()+" Skip");
+		test.fail(result.getThrowable());
 	}
 
 	@Override//AM
@@ -63,8 +69,7 @@ public class ListenerImplementation implements ITestListener {
 
 	@Override//AT
 	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
-		
+		extentReports.flush();
 	}
 
 }

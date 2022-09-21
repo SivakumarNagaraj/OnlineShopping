@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.FetchTheDataFromCMD">
+      <class name="TestNG.TestExecution4Test">
         <methods>
-          <include name="cmd"/>
+          <include name="testexecution4test"/>
+          <include name="beforeClassSetUp"/>
+          <include name="afterClassSetUp"/>
+          <include name="beforeMethodSetUp"/>
+          <include name="afterMethodSetUp"/>
         </methods>
-      </class> <!-- TestNG.FetchTheDataFromCMD -->
+      </class> <!-- TestNG.TestExecution4Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
