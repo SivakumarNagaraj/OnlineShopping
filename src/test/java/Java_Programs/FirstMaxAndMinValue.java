@@ -7,7 +7,7 @@ public class FirstMaxAndMinValue {
 		{
 			for (int j = i; j < arr.length; j++) 
 			{
-				if (arr[i]<arr[j])
+				if (arr[i]>arr[j])
 				{
 					int temp=arr[i];
 					arr[i]=arr[j];
@@ -16,8 +16,8 @@ public class FirstMaxAndMinValue {
 			}
 		}
 		
-			System.out.println("First min value -------->" +arr[arr.length-1]);
-			System.out.print("First max value -------->" +arr[0]);
+			System.out.println("First max value -------->" +arr[arr.length-1]);
+			System.out.print("First min value -------->" +arr[0]);
 
 	}
 

@@ -2,7 +2,7 @@ package Java_Programs;
 
 public class AddOf2Digit {
 	public static void main(String[] args) {
-		String s = "K;Ld!A66ej11w22";
+		String s = "1a2b31c";
 		int sum = 0;
 		int temp = 0;
 		for (int i = 0; i < s.length(); i++) {
@@ -16,7 +16,7 @@ public class AddOf2Digit {
 				temp=0;
 			}
 		}
-		sum=sum+temp;
+	//	sum=sum+temp;
 		System.out.println(sum);
 	}
 }

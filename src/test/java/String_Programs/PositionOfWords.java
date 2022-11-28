@@ -25,7 +25,7 @@ public class PositionOfWords {
 		}
 		for (String str : set) {
 			for (int i = 0; i < s1.length; i++) {
-				if (str.equals(s1[i])) 
+				if (str==(s1[i])) 
 				{
 					System.out.println(str+" is present in "+(i+1)+" position");
 				}

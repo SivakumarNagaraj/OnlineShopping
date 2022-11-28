@@ -8,7 +8,7 @@ public class BoobleShort_Assending{
 		{
 			for (int j = i; j < arr.length; j++) 
 			{
-				if (arr[i]>arr[j])
+				if (arr[j]<arr[i])
 				{
 					int temp=arr[i];
 					arr[i]=arr[j];
@@ -21,4 +21,6 @@ public class BoobleShort_Assending{
 			System.out.print(arr[i]+" ");
 		}
 	}
+	
+	
 }

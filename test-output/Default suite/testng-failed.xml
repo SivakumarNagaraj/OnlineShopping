@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.TestExecution4Test">
+      <class name="Practice.Redbus1">
         <methods>
-          <include name="testexecution4test"/>
-          <include name="beforeClassSetUp"/>
-          <include name="afterClassSetUp"/>
-          <include name="beforeMethodSetUp"/>
-          <include name="afterMethodSetUp"/>
+          <include name="red"/>
         </methods>
-      </class> <!-- TestNG.TestExecution4Test -->
+      </class> <!-- Practice.Redbus1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

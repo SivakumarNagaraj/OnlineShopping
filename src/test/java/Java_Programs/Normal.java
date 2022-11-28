@@ -20,7 +20,7 @@ public class Normal {
 				System.out.println("Hi");
 				break;
 
-			} else if (a % 5 != 0 && a % 3 != 0) {
+			} else  {
 				System.out.println("Bye");
 				break;
 

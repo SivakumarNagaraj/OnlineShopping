@@ -13,5 +13,6 @@ public class FetchTheData
 		property.load(fis);
 		String url = property.getProperty("url").trim();
 		System.out.println(url);
+		
 	}
 }

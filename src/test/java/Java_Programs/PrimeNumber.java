@@ -7,7 +7,7 @@ public class PrimeNumber {
 		for (int i = 0; i < a.length; i++) {
 			int n=a[i];
 			int j=2;
-			while (j<=n) {
+			while (n!=0) {
 				if (n%j==0) {
 					break;
 				}

@@ -3,9 +3,12 @@ package Org.Onlineshopping.GenricUtility;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -66,6 +69,17 @@ public class WebDriverUtility
 	public void implicitwait(WebDriver driver, Long longTimeOut)
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(longTimeOut));
+	}	
+	/**
+	 * 
+	 * @param driver
+	 * @param longTimeOut
+	 */
+	
+	public void explicitywait(WebDriver driver, Long longTimeOut,WebElement element) {
+		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(longTimeOut) );
+		wait.until(ExpectedConditions.visibilityOf(element));
+		
 	}
 	/**
 	 * This method is used to lanuch the url

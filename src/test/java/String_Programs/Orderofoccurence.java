@@ -10,6 +10,7 @@ public class Orderofoccurence {
 		for (int i = 0; i < s.length(); i++) 
 		{
 			set.add(s.charAt(i));
+			System.out.println(set);
 		}
 		for (Character ch : set) {
 			int count=0;

@@ -18,6 +18,7 @@ public class Fetch_Multiple_Data
 		Sheet sheet = wb.getSheet("Credentials");
 		DataFormatter df = new DataFormatter();
 		String[][] arr = new String[sheet.getLastRowNum()+1][sheet.getRow(sheet.getLastRowNum()).getLastCellNum()];
+		System.out.println(arr.length);
 		
 //		System.out.println(sheet.getRow(sheet.getLastRowNum()).getLastCellNum());
 //		System.out.println(sheet.getLastRowNum());
@@ -32,7 +33,7 @@ public class Fetch_Multiple_Data
 		{
 			for (int j = 0; j <sheet.getRow(sheet.getLastRowNum()).getLastCellNum() ; j++) 
 			{
-				System.out.print(arr[i][j]+" ");	
+				System.out.print(arr[i][j]+" || ");	
 			}
 			System.out.println();
 		}

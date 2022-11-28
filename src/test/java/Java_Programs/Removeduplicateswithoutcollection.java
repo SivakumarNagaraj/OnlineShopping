@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 public class Removeduplicateswithoutcollection {
 
 	public static void main(String[] args) {
-		int[] a= {2,4,1,1,5,4};
+		int[] a= {2,4,1,1,5,4,1};
 		int length = a.length;
 		LinkedHashMap<Integer, Integer> map = new LinkedHashMap<Integer,Integer>();
 		for (int i = 0; i < length; i++)

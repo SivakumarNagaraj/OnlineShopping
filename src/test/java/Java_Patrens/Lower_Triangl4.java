@@ -1,6 +1,6 @@
 package Java_Patrens;
 
-public class Triangl4 {
+public class Lower_Triangl4 {
 public static void main(String[] args) {
 	int n=5;
 	for (int i = n; i >0; i--) {
@@ -12,12 +12,6 @@ public static void main(String[] args) {
 			}
 		}
 		System.out.println();
-		
 	}
 }
 }
-//* * * * * 
-//* * * * 
-//* * * 
-// * * 
-//  * 

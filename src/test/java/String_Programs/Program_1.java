@@ -6,9 +6,9 @@ public class Program_1 {
 //		String s="welcome";
 //		System.out.println(s.length());
 		
-//		String s="welcome";
-//		char[] s1 = s.toCharArray();
-//		System.out.println(s1.length);
+		String s="welcome";
+		char[] s1 = s.toCharArray();
+		System.out.println(s1.length);
 		
 //		String s="welcome";
 //		System.out.println(s.charAt(1));
