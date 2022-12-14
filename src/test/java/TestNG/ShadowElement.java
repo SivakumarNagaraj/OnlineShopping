@@ -1,4 +1,4 @@
-package Practice;
+package TestNG;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

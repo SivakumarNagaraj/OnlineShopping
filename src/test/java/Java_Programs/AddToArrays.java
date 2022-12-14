@@ -11,7 +11,7 @@ public class AddToArrays {
 		int sum=0;
 		ArrayList<Object> list= new ArrayList<Object>();
 		for (int i = 0; i < arr1.length; i++) {
-			for (int j = i; j <= arr2.length; j++) {
+			for (int j = i; j < arr2.length; j++) {
 				add[sum]=arr1[i]+arr2[j];
 				list.add(add[sum]);
 				break;

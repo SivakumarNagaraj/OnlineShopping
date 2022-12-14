@@ -1,4 +1,4 @@
-package Practice;
+package TestNG;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

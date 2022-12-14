@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.Redbus1">
+      <class name="Mock.aabbccab">
         <methods>
-          <include name="red"/>
+          <include name="aabbcc"/>
         </methods>
-      </class> <!-- Practice.Redbus1 -->
+      </class> <!-- Mock.aabbccab -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
